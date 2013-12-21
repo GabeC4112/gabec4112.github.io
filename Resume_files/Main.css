@@ -1,0 +1,353 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.container {
+	margin:0 auto;
+	width:1000px;
+
+
+	
+}
+
+h1 {
+	font-size:48px;
+	font-family:Prociono;
+	justified:left;
+	margin: 0px 144px 0px 144px;
+	font-weight:normal;
+	line-height:125%;
+	
+}
+
+h2 {
+	font-size:24px;
+	font-weight:normal;
+	justified:left;
+	margin:0px 144px 0px 144px;
+	font-family:Prociono;
+}
+
+h3 {
+	font-size:72px;
+	font-weight:normal;
+	justified:left;
+	font-family:ChunkFive;
+
+}
+
+h4 {
+	font-size:40px;
+	font-weight:normal;
+	justified:left;
+	font-family:ChunkFive;
+	margin-top:-50px;
+	
+}
+
+h5 {
+	font-size:16px;
+	font-weight:normal;
+	justfied:left;
+	font-family:Prociono;
+	
+}
+
+@font-face {
+	font-family:ChunkFive;
+	font-family:Prociono;
+	
+}
+
+.logo {
+	float:center;
+	text-align:center;
+	margin-top:-40px;
+	height:190px;
+	padding:20px 0px 0px 0px;
+	
+}
+
+.nav ul {
+	height:50px;
+	width:1000px;
+	margin-left:60px;
+	
+}
+
+.nav ul li {
+	display:inline-block;
+	text-align:center;
+	list-style:none;
+	margin-right:15px;
+	background-image:url(Images/Nav%20Bar%20/nav_bar_02.jpg);
+	height:32px;
+	width:150px;
+	padding-bottom:5px;
+
+	
+}
+
+.nav ul li a{
+	text-decoration: none;
+	display: inline-block;
+	color: #FFF;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: ChunkFive;
+	font-size: 15px;
+	padding-top: 10px;
+	
+
+	
+}
+
+.nav ul li a:hover {
+	text-decoration:none;
+	display:inline-block;
+	text-align:center;
+	height:32px;
+	width:150px;
+	background-image:url(Images/Nav%20Bar%20/nav_bar_hover_02.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+
+	
+	
+	
+	
+}
+
+
+.navbar {
+	float:center;	
+}
+
+.footer {
+	background:#919090;
+	width:1000px;
+	height:240px;
+	position:absolute;
+}
+
+.footer_logo {
+	float:left;
+	margin:0 auto;
+	height:240px;
+	width:333px;
+	
+}
+
+ 
+
+.footer_box {
+	float:right;
+	background-color:#919090;
+	width:294px;
+	height:190px;
+	color:#FFF;
+	padding-top:50px;
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:regular;
+	margin-right:350px;
+	
+	
+}
+
+.body_background {
+	width:1000px;
+	background-color:#FFF;
+	background-repeat:no-repeat;
+	background-position:right;
+		
+}
+
+.logo_background_body {
+	background-image:url(Images/Logo_Background_Body.jpg);
+	background-repeat:no-repeat;
+	background-position:right;
+	margin-bottom:-30px;
+	margin-top:-40px;
+	
+	
+}
+
+.clear-both {
+	clear:both;
+}
+
+    #slides {
+      display:none;
+    }
+	
+#makeMeScrollable div.scrollableArea *
+{
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+#panel {
+	display:none;
+	
+}
+
+.nav_bar_01 {
+	background-image:url(Images/Nav%20Bar%20/nav_bar.jpg);
+	width:155px;
+	height:37px;
+	position:relative;
+	repeat:5;
+
+}
+
+#nav_bar_space_left {
+	width:50px;
+	height:37px;
+	float:left;
+	
+}
+	
+body {
+      -webkit-font-smoothing: antialiased;
+      font: normal 15px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #232525;
+      padding-top:70px;
+    }
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+	  display:none;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+	  display:none;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0 -30px;
+      float: left;
+	  margin-right:5px;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+	  height: 0;
+      padding-top: 13px;
+      background-image:url(Images/scroll_button.png);
+      float: left;
+      overflow: hidden;
+	  padding-left:5px;
+	  background-repeat:no-repeat;
+	  margin-left:0px;
+	  
+    }
+	
+	.slidesjs-pagination li a:hover {
+		display:block;
+		width:13px;
+		height:0;
+		background-image:url(Images/scroll_button_hover.png);
+		float: left;
+		overflow: hidden;
+		
+	}
+		
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+	  background-image:url(Images/scroll_button_hover.png);
+	  float:left;
+	  
+
+    }
+
+    .slidesjs-pagination li a:hover {
+	  background-image:url(Images/scroll_button_hover.png);
+
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+  </style>
+   End SlidesJS Optional
+
+   SlidesJS Required: These styles are required if you'd like a responsive slideshow 
+  <style>
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+form {
+	font-family:ChunkFive;
+	margin-bottom:100px;
+	
+	
+}
+
+label {
+	float:left;
+	text-align:right;
+	width:100px;
+	font-size:14px;
+	
+	
+
+	
+	
+}
+
+#contact-area textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0 auto;
+	width:300px;
+
+}
+
+#contentContainer {
+	width:300px;
+	height:50px;
+	
+}
